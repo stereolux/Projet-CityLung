@@ -25,3 +25,8 @@ node index.js
 ## Run the program when the raspberry pi boots
 
 See http://www.raspberrypi.org/documentation/linux/usage/rc-local.md
+
+## Things to check
+
+- Be sure the Arduino is plugged to the `/dev/ttyACM0` port, otherwise modify the line https://github.com/stereolux/cityLung/blob/master/index.js#L5 with the according port.
+- Check network connectivity
