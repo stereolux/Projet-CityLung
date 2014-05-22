@@ -1,0 +1,23 @@
+{
+  "name": "cityLung",
+  "version": "0.0.1",
+  "description": "Code for city lung installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stereolux/cityLung"
+  },
+  "author": "Xavier Seignard <xavier.seignard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stereolux/cityLung/issues"
+  },
+  "homepage": "https://github.com/stereolux/cityLung",
+  "dependencies": {
+    "dataviz-tangible": "0.0.3",
+    "serialport": "^1.4.0"
+  }
+}
